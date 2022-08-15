@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.full-page
+{
+    height: 100%;
+	width: 100%;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.064),rgba(0, 0, 0, 0.128)),url(winter10.jpg);
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+    
+}
+.welcometext{
+    font-size: 17px;
+    color: #DBDFFD;
+    line-height: 1.6;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: transparent;
+    background:rgba(0, 0, 0, 0.185);
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 200px;
+    padding-left: 50px;
+}
+.h1.welcometext{
+    font-size: xxx-large;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.h2.welcometext{
+    font-size: xx-large;
+    padding-left: 30px;
+}
+.container .btn1 {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #9BA3EB;
+    color: #DBDFFD;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .container .btn1:hover {
+    background-color: #242F9B;
+    transition: 0.3s;
+  }
+  .container .btn2 {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #9BA3EB;
+    color: #DBDFFD;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .container .btn2:hover {
+    background-color: #242F9B;
+    transition: 0.3s;
+  }
+  .logo{
+    padding-top: 5px;
+    padding-left:  60px; 
+    
+
+
+  }
+  
